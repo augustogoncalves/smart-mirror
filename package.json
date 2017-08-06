@@ -6,6 +6,7 @@
   "scripts": {
     "install": "bower install",
     "start": "electron main.js ",
+    "log": "electron main.js dev --enable-logging",
     "train-model": "electron scripts/train-model.js",
     "sonus": "node sonus.js",
     "motion": "sudo node motion.js",
@@ -17,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/evancohen/smart-mirror.git"
+    "url": "git+https://github.com/augustogoncalves/smart-mirror.git"
   },
   "keywords": [
     "Smart Mirror",

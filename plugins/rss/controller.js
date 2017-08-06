@@ -25,7 +25,7 @@ function Rss($scope, $http, $q, $interval) {
 			for (var i = 0; i < response.length; i++) {
 				for (var j = 0; j < response[i].data.query.results.rss.channel.item.length; j++) {
 					var feedEntry = {
-						title: response[i].data.query.results.rss.channel.item[j].title,
+						title: response[i].data.query.results.rss.channel.item[j].title.replace(/(?:https?|ftp):\/\/[\n\S]+/g, ''),
                         //content: response[i].data.query.results.rss.channel.item[j].description[0],
 					};
 					rss.feed.push(feedEntry);
