@@ -1,3 +1,9 @@
+# Versão Português Brasil (pt-BR)
+
+Ajude a treinar a palavra chave **espelho** [neste link](https://snowboy.kitt.ai/hotword/5237). Ainda estou fazendo pequenos ajustes, o original não está totalmente traduzido, e algumas palavras podem ser melhoradas.
+
+*****************
+
 <h1 align="center">Smart Mirror</h1>
 
 <p align="center">
