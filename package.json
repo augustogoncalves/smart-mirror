@@ -1,6 +1,6 @@
 {
   "name": "smart-mirror",
-  "version": "0.0.14",
+  "version": "0.0.17",
   "description": "The fairest of them all",
   "main": "main.js",
   "scripts": {
@@ -35,7 +35,7 @@
   "devDependencies": {
     "angular-i18n": "^1.5.5",
     "bower": "^1.7.9",
-    "electron": "^1.4.4",
+    "electron": "<1.8.0",
     "eslint": "^3.13.1",
     "wiredep-cli": "^0.1.0"
   },
@@ -45,10 +45,11 @@
     "electron-json-storage": "2.0.0",
     "express": "^4.14.0",
     "fitbit-oauth2": "0.0.1",
+    "humanize-duration": "^3.10.1",
     "hyperion-client": "1.0.3",
     "moment": "^2.17.1",
     "socket.io": "^1.6.0",
-    "sonus": "^0.1.8"
+    "sonus": "^0.1.9"
   },
   "eslintConfig": {
     "extends": "eslint:recommended",

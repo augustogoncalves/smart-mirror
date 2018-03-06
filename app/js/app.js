@@ -21,7 +21,7 @@
             // Avoiding the duplicity of the locale for the default language, xx-YY -> xx
             // We are considering only the language
             // Please refer https://github.com/evancohen/smart-mirror/pull/179 for further discussion
-	var language = (typeof config.general.language != 'undefined') ? config.general.language.substring(0, 2) : 'en';
+	var language = (typeof config.general.language != 'undefined') ? config.general.language : 'en';
 	$translateProvider.preferredLanguage(language);
 }])
 
